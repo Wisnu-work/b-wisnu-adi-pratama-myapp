@@ -49,7 +49,7 @@ export default function ProductDetail() {
                     <span className='font-medium text-red-500'>Out of stock</span>
                 )}
 
-                <span className='text-[#eaeaea]'>{product.category ?? 'Uncategorized'}</span>
+                <span className='text-[#cccccc]'>{product.category ?? 'Uncategorized'}</span>
 
                 {product.stock > 0 ? (
                     <div>

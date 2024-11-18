@@ -12,7 +12,7 @@ export default function Card({product}) {
             <img src={product.imageUrl ?? ''} alt={product.name ?? 'No name'} className="block max-h-[300px] mb-4 object-cover" />
                 <div className="flex flex-col gap-2">
                     <h4 className="font-medium text-[20px] text-white">{product.name ?? 'No Name'}</h4>
-                    <span className="block font-medium text-[14px] text-[#eaeaea]">{product.category ?? 'Uncatagorized'}</span>
+                    <span className="block font-medium text-[14px] text-[#cccccc]">{product.category ?? 'Uncatagorized'}</span>
                     <span className="block font-medium text-[20px] text-white">{formatToIDRCurrency(product.price) ?? 'Not for sale'}</span>
                     <div>
                     {product.stock <= 0 ? (
