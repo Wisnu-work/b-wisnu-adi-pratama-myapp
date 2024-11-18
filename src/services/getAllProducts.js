@@ -1,8 +1,8 @@
 export default function getAllProducts() {
     return [
         {
-            id: 'XB-S-X-1TB-DD-CBL-CSL-001',
-            slug: 'xbox-series-x-2tb-disc-drive',
+            id: 'XB-S-X-1TB-DD-CBL-CSL-000',
+            slug: 'xbox-series-x-1tb-disc-drive',
             name: "Xbox Series X 1TB Disc Drive - Carbon Black",
             category: 'Consoles',
             categorySlug: 'consoles',
